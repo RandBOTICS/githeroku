@@ -1,1 +1,1 @@
-web:streamlit app1.py
+web: gunicorn app1:app
