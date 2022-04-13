@@ -56,7 +56,7 @@ def predict_note_authentication(PlastificationTime, MaximumInjection, Cushion, M
 def main():
     st.title("Classificador Vipex")
     html_temp = """
-    <body style="background-color:blue
+    <body style="background-color:black>
     <div style="background-color:orange;padding:7px">
     <h2 style="color:white;text-align:center;">Processo de Injeção Sopro III </h2>
     </div>
