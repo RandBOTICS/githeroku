@@ -54,10 +54,10 @@ def predict_note_authentication(PlastificationTime, MaximumInjection, Cushion, M
 
 
 def main():
-    st.title("Vipex")
+    st.title("Classificador Vipex")
     html_temp = """
     <div style="background-color:tomato;padding:7px">
-    <h2 style="color:white;text-align:center;">IA Injec</h2>
+    <h2 style="color:black;text-align:center;">Processo de Injeção Sopro III </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
@@ -85,9 +85,9 @@ def main():
         st.success('O processo esta a perder qualidade')
     if result == 3:
         st.success('O processo esta otimo')
-    if st.button("Sobre Nos"):
-        st.text("Fiz isto para provar ao Bruno que tenho a picha grande")
-        st.text("Viramos umas novinhas amanha")
+    if st.button("Infos"):
+        st.text("Versao 16 - Classificador de Injecao de Plasticos")
+        st.text("")
 
 if __name__=='__main__':
     main()
